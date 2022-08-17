@@ -1,0 +1,65 @@
+https://en.wikipedia.org/wiki/Character_encoding
+
+### Common character encodings
+
+- ISO 646
+  - [ASCII](https://en.wikipedia.org/wiki/ASCII)
+- [EBCDIC](https://en.wikipedia.org/wiki/EBCDIC)
+- ISO 8859:
+  - [ISO 8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) Western Europe
+  - [ISO 8859-2](https://en.wikipedia.org/wiki/ISO/IEC_8859-2) Western and Central Europe
+  - [ISO 8859-3](https://en.wikipedia.org/wiki/ISO/IEC_8859-3) Western Europe and South European (Turkish, Maltese plus Esperanto)
+  - [ISO 8859-4](https://en.wikipedia.org/wiki/ISO/IEC_8859-4) Western Europe and Baltic countries (Lithuania, Estonia, Latvia and Lapp)
+  - [ISO 8859-5](https://en.wikipedia.org/wiki/ISO/IEC_8859-5) Cyrillic alphabet
+  - [ISO 8859-6](https://en.wikipedia.org/wiki/ISO/IEC_8859-6) Arabic
+  - [ISO 8859-7](https://en.wikipedia.org/wiki/ISO/IEC_8859-7) Greek
+  - [ISO 8859-8](https://en.wikipedia.org/wiki/ISO/IEC_8859-8) Hebrew
+  - [ISO 8859-9](https://en.wikipedia.org/wiki/ISO/IEC_8859-9) Western Europe with amended Turkish character set
+  - [ISO 8859-10](https://en.wikipedia.org/wiki/ISO/IEC_8859-10) Western Europe with rationalised character set for Nordic languages, including complete Icelandic set
+  - [ISO 8859-11](https://en.wikipedia.org/wiki/ISO/IEC_8859-11) Thai
+  - [ISO 8859-13](https://en.wikipedia.org/wiki/ISO/IEC_8859-13) Baltic languages plus Polish
+  - [ISO 8859-14](https://en.wikipedia.org/wiki/ISO/IEC_8859-14) Celtic languages (Irish Gaelic, Scottish, Welsh)
+  - [ISO 8859-15](https://en.wikipedia.org/wiki/ISO/IEC_8859-15) Added the Euro sign and other rationalisations to ISO 8859-1
+  - [ISO 8859-16](https://en.wikipedia.org/wiki/ISO/IEC_8859-16) Central, Eastern and Southern European languages (Albanian, Bosnian, Croatian, Hungarian, Polish, Romanian, Serbian and Slovenian, but also French, German, Italian and Irish Gaelic)
+- [CP437](https://en.wikipedia.org/wiki/Code_page_437), [CP720](https://en.wikipedia.org/wiki/Code_page_720), [CP737](https://en.wikipedia.org/wiki/Code_page_737), [CP850](https://en.wikipedia.org/wiki/Code_page_850), [CP852](https://en.wikipedia.org/wiki/Code_page_852), [CP855](https://en.wikipedia.org/wiki/Code_page_855), [CP857](https://en.wikipedia.org/wiki/Code_page_857), [CP858](https://en.wikipedia.org/wiki/Code_page_858), [CP860](https://en.wikipedia.org/wiki/Code_page_860), [CP861](https://en.wikipedia.org/wiki/Code_page_861), [CP862](https://en.wikipedia.org/wiki/Code_page_862), [CP863](https://en.wikipedia.org/wiki/Code_page_863), [CP865](https://en.wikipedia.org/wiki/Code_page_865), [CP866](https://en.wikipedia.org/wiki/Code_page_866), [CP869](https://en.wikipedia.org/wiki/Code_page_869), [CP872](https://en.wikipedia.org/wiki/Code_page_872)
+- MS-Windows character sets:
+  - [Windows-1250](https://en.wikipedia.org/wiki/Windows-1250) for Central European languages that use Latin script, (Polish, Czech, Slovak, Hungarian, Slovene, Serbian, Croatian, Bosnian, Romanian and Albanian)
+  - [Windows-1251](https://en.wikipedia.org/wiki/Windows-1251) for Cyrillic alphabets
+  - [Windows-1252](https://en.wikipedia.org/wiki/Windows-1252) for Western languages
+  - [Windows-1253](https://en.wikipedia.org/wiki/Windows-1253) for Greek
+  - [Windows-1254](https://en.wikipedia.org/wiki/Windows-1254) for Turkish
+  - [Windows-1255](https://en.wikipedia.org/wiki/Windows-1255) for Hebrew
+  - [Windows-1256](https://en.wikipedia.org/wiki/Windows-1256) for Arabic
+  - [Windows-1257](https://en.wikipedia.org/wiki/Windows-1257) for Baltic languages
+  - [Windows-1258](https://en.wikipedia.org/wiki/Windows-1258) for Vietnamese
+
+- [Mac OS Roman](https://en.wikipedia.org/wiki/Mac_OS_Roman)
+- [KOI8-R](https://en.wikipedia.org/wiki/KOI8-R), [KOI8-U](https://en.wikipedia.org/wiki/KOI8-U), [KOI7](https://en.wikipedia.org/wiki/KOI7)
+- [MIK](https://en.wikipedia.org/wiki/MIK_Code_page)
+- [ISCII](https://en.wikipedia.org/wiki/Indian_Script_Code_for_Information_Interchange)
+- [TSCII](https://en.wikipedia.org/wiki/Tamil_Script_Code_for_Information_Interchange)
+- [VISCII](https://en.wikipedia.org/wiki/Vietnamese_Standard_Code_for_Information_Interchange)
+- JIS X 0208 is a widely deployed standard for Japanese character encoding that has several encoding forms.
+  - [Shift JIS](https://en.wikipedia.org/wiki/Shift_JIS) (Microsoft [Code page 932](https://en.wikipedia.org/wiki/Code_page_932_(Microsoft_Windows)) is a dialect of Shift_JIS)
+  - [EUC-JP](https://en.wikipedia.org/wiki/Extended_Unix_Code)
+  - [ISO-2022-JP](https://en.wikipedia.org/wiki/ISO/IEC_2022)
+- JIS X 0213 is an extended version of JIS X 0208.
+  - [Shift_JIS-2004](https://en.wikipedia.org/wiki/Shift_JIS)
+  - [EUC-JIS-2004](https://en.wikipedia.org/wiki/Extended_Unix_Code)
+  - [ISO-2022-JP-2004](https://en.wikipedia.org/wiki/ISO/IEC_2022)
+- Chinese Guobiao
+  - [GB 2312](https://en.wikipedia.org/wiki/GB_2312)
+  - [GBK](https://en.wikipedia.org/wiki/GBK_(character_encoding)) (Microsoft Code page 936)
+  - [GB 18030](https://en.wikipedia.org/wiki/GB_18030)
+- Taiwan 
+  - Big5 (a more famous variant is Microsoft Code page 950)
+  - [HKSCS](https://en.wikipedia.org/wiki/HKSCS) Hong Kong 
+- Korean
+  - [KS X 1001](https://en.wikipedia.org/wiki/KS_X_1001) is a Korean double-byte character encoding standard
+  - [EUC-KR](https://en.wikipedia.org/wiki/Extended_Unix_Code#EUC-KR)
+  - [ISO-2022-KR](https://en.wikipedia.org/wiki/ISO/IEC_2022)
+- Unicode (and subsets thereof, such as the 16-bit 'Basic Multilingual Plane')
+  - [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
+  - [UTF-16](https://en.wikipedia.org/wiki/UTF-16)
+  - [UTF-32](https://en.wikipedia.org/wiki/UTF-32)
+- [ANSEL](https://en.wikipedia.org/wiki/ANSEL) or [ISO/IEC 6937](https://en.wikipedia.org/wiki/ISO/IEC_6937)

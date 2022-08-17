@@ -1,0 +1,8 @@
+VIP_Lv,vipDesc,Get_VIP_EXP_100Cash,Get_VIP_EXP_Daily_Login,Get_VIP_EXP_Playtime_1hour,VIP_Exp,Point_bonus,Exp_bonus,Milege_bonus,Combine_Discount,Userkick_Vote,Hide_slotmachine,Weapon_Unlock_Discount,Prob_items_type,Chat_Possibility,Instant_Reward,Dailiy_Login_Reward,Channel_Freepass,Burining_Bonus
+1,#CSO2_VIP_DESC_01,10,50,100,8000,5,5,50,0,1,1,0,0,0,9101,9201,0,0
+2,#CSO2_VIP_DESC_02,10,50,100,20000,10,10,50,20,1,1,5,0,0,9102,9202,1,0
+3,#CSO2_VIP_DESC_03,10,50,100,40000,15,15,50,30,1,1,10,1,1,9103,9203,1,2
+4,#CSO2_VIP_DESC_04,10,50,100,65000,20,20,50,35,1,1,20,1,1,9104,9204,1,3
+5,#CSO2_VIP_DESC_05,10,50,100,100000,25,25,50,40,1,1,30,1,1,9105,9205,1,5
+6,#CSO2_VIP_DESC_06,10,50,100,180001,30,30,50,45,1,1,35,1,1,9106,9206,1,6
+,,,,,,,,,,,,,,,,,,

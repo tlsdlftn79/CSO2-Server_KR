@@ -1,0 +1,13 @@
+version: '3'
+services:
+    cso2-server:
+        container_name: cso2-server
+        image: cso2-server:latest
+        hostname: cso2-server
+        ports:
+            - 1314:1314
+            - 1315:1315
+            - 30001:30001
+            - 30002:30002/udp
+        volumes:
+            - ./database/:/usr/local/CSO2-Server/database/

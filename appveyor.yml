@@ -1,0 +1,62 @@
+version: 0.5.0-{build}
+pull_requests:
+  do_not_increment_build_number: true
+image: Visual Studio 2015
+clone_folder: c:\gopath\src\github.com\KouKouChan\CSO2-Server
+environment:
+  GOPATH: c:\gopath
+build_script:
+- cmd: >-
+    path=%path%;C:\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin
+
+    gcc --version
+
+    go version
+
+    go build
+test_script:
+- cmd: >-
+    move .\CSO2-Server.exe ..\
+
+    move .\local-console.bat ..\
+
+    move .\LICENSE ..\
+
+    move .\README.md ..\
+
+    move .\README.en.md ..\
+
+    move .\README.tr.md ..\
+
+    move .\CodePage.md ..\
+
+    cd ..
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z .\CSO2-Server.exe
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z .\local-console.bat
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z .\LICENSE
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z .\README.md
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z .\README.en.md
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z .\README.tr.md
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z .\CodePage.md
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z CSO2-Server\configure\server.conf
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z CSO2-Server\database\sql\
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z CSO2-Server\assert\
+
+    7z a .\CSO2-Server-0.5.0-Win64.7z CSO2-Server\locales\
+
+    mv .\CSO2-Server-0.5.0-Win64.7z .\CSO2-Server\
+
+    cd .\CSO2-Server\
+artifacts:
+- path: CSO2-Server-*-Win64.7z
+  name: win64

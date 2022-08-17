@@ -1,0 +1,1 @@
+start ./CSO2-Server.exe -console
