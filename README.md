@@ -1,1 +1,1 @@
-# -CSO2-Server_KR
+# CSO2-Server_KR
