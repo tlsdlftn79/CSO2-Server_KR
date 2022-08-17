@@ -45,7 +45,7 @@ import (
 
 var (
 	//SERVERVERSION 版本号
-	SERVERVERSION = "v0.5.0"
+	SERVERVERSION = "v0.8.0"
 )
 
 func ReadHead(client net.Conn) ([]byte, bool) {
